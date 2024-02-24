@@ -3,11 +3,12 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"hashes/mapcache"
 	"log"
 	"os"
 	"strconv"
 	"time"
+
+	"hashes/mapcache"
 )
 
 func enterManually() ([]int, []int) {
